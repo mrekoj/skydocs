@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Make scrollable elements fully visible */
+.highlight, pre, code, blockquote {
+  white-space: pre-wrap !important;
+  overflow: visible !important;
+  max-height: none !important;
+  word-wrap: break-word !important;
+}
